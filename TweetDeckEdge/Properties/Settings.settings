@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TweetDeckEdge.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WindowsPositionWidth" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">800</Value>
+    </Setting>
+    <Setting Name="WindowsPositionHeight" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">540</Value>
+    </Setting>
+    <Setting Name="WindowsPositionTop" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WindowsPositionLeft" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="WebViewSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://tweetdeck.com/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
