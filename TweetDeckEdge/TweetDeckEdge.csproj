@@ -2,14 +2,18 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <StartupObject>TweetDeckEdge.App</StartupObject>
-    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <ApplicationIcon>Resource\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Web.WebView2" Version="0.9.579">
+    <Content Include="Resource\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2592.51">
       <GeneratePathProperty>true</GeneratePathProperty>
     </PackageReference>
   </ItemGroup>

@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="TweetDeckEdge" Height="450" Width="800" Closing="Window_Closing">
     <Grid>
-        <wv2:WebView2 Name="webView" CoreWebView2Ready="webView_CoreWebView2Ready">
+        <wv2:WebView2 Name="webView" CoreWebView2InitializationCompleted ="webView_CoreWebView2Ready">
         </wv2:WebView2>
     </Grid>
 </Window>
